@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente <HeroPage /> debe mostrar el heroe si hay un heroe en la url 1`] = `
+<div
+  className="hero-page row mt-5"
+>
+  <div
+    className="col-4"
+  >
+    <img
+      alt="Spider Man"
+      className="hero-page__img animate__animated animate__fadeInLeft"
+    />
+  </div>
+  <div
+    className="col-8 animate__animated animate__fadeIn"
+  >
+    <h3>
+      Spider Man
+    </h3>
+    <ul
+      className="list-group list-group-flush"
+    >
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Alter ego: 
+        </b>
+         
+        Peter Parker
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Publisher: 
+        </b>
+         
+        Marvel Comics
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Firts appearance: 
+        </b>
+         
+        Amazing Fantasy #15
+      </li>
+    </ul>
+    <h5>
+      Characters
+    </h5>
+    <p>
+      Peter Parker
+    </p>
+    <button
+      className="btn btn-outline-primary"
+      onClick={[Function]}
+    >
+      ← Return
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Pruebas al componente <HeroPage /> no debe mostrar nada si no hay heroe en la url o no existe 1`] = `""`;

@@ -1,0 +1,15 @@
+.heroes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, min-content));
+    grid-gap: 1rem;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+.heroes-list__item {
+    overflow: hidden;
+}
+.heroes-list__item img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
